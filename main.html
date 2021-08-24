@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Handling user input</title>
+    <!--External CSS link-->
+    <link href="handling user input.css" type="text/css" rel="stylesheet" />
+    <!--External Vue.js CDN link version 3-->
+    <script src="https://unpkg.com/vue@next"></script>
+    <!--External JS link deferred-->
+    <script type="text/javascript" src="handling user input.js" defer></script>
+</head>
+<body>
+    <div id="root">
+        <h1>Handling User Input</h1>
+        <p>Click the button below to reverse the text</p>
+        <p>{{ message }}</p>
+        <button v-on:click="reverseMessage">Reverse message</button>
+    </div>
+</body>
+</html>
