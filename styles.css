@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#root {
+    padding: 30px;
+    background-color: lightgray; 
+}
+
+h1, p {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+
+#root :nth-child(3) {
+    color: hotpink;
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px 5px;
+}
